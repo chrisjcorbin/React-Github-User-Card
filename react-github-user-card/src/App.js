@@ -20,7 +20,7 @@ class App extends React.Component {
         this.setState({ user: res.data })
       })
       .catch(err => {
-        console.log('You didnt say the magic word! ', err)
+        console.log("You didn't say the magic word! ", err)
       })
     axios
       .get(`https://api.github.com/users/chrisjcorbin/followers`)
@@ -28,7 +28,7 @@ class App extends React.Component {
         this.setState({ followers: res.data })
       })
       .catch(err => {
-        console.log("You didnt say the magic word! ", err);
+        console.log("You didn't say the magic word! ", err);
       })
   }
 
