@@ -1,3 +1,7 @@
+html{
+  background-color: black;
+}
+
 .App {
   text-align: center;
 }
@@ -31,6 +35,12 @@
 img {
   height: auto;
   width: 10%;
+  border: 5px inset teal;
+  border-radius: 50%;
+}
+
+h2{
+  color: rebeccapurple;
 }
 
 @keyframes App-logo-spin {
