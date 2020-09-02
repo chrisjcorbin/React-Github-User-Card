@@ -44,6 +44,11 @@ h2{
   text-shadow: 1.5px 1.5px teal;
 }
 
+h3{
+  color: teal;
+  text-shadow: 1.5px 1.5px rebeccapurple;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

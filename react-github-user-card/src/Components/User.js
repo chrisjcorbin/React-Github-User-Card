@@ -6,6 +6,7 @@ function User(props) {
             <p key={Date.now()} className='user'>
                 <img src={props.user.avatar_url} alt={props.user.login} />
                     <h2>{props.user.login}</h2>
+                <h3>{props.user.followers} Followers Shown Below:</h3>
             <br />
             </p>
         </div>
