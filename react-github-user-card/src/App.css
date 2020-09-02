@@ -41,6 +41,7 @@ img {
 
 h2{
   color: rebeccapurple;
+  text-shadow: 1.5px 1.5px teal;
 }
 
 @keyframes App-logo-spin {
